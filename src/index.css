@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Chakra Petch", "Noto Sans Thai", system-ui, sans-serif;
+  --font-sans: "Noto Sans Thai", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #090a0d;
+    color: #f4f4f5;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    user-select: none;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

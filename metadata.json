@@ -1,0 +1,6 @@
+{
+  "name": "Apex Auto VR — ซิมูเลเตอร์ซ่อมรถยนต์สมจริง",
+  "description": "เกมจำลองการซ่อมรถยนต์เสมือนจริง 3D และ WebXR พร้อมอุปกรณ์ช่างยนต์ครบครัน ระบบวิเคราะห์ OBD-II การวัดแรงบิดประแจปอนด์ และลิฟต์ยกรถไฮดรอลิก",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
